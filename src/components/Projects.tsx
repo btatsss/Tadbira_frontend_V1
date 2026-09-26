@@ -101,21 +101,6 @@ const Projects = () => {
                     <div className="hr-visual">
                       <span className="visual-big-number">HR</span>
                       <span className="visual-small-text">MANAGEMENT SYSTEM</span>
-
-                      <div className="hr-dashboard">
-                        <div className="hr-stat">
-                          <span className="hr-stat-label">EMPLOYEES</span>
-                          <span className="hr-stat-value">124</span>
-                        </div>
-                        <div className="hr-stat">
-                          <span className="hr-stat-label">LEAVES</span>
-                          <span className="hr-stat-value">08</span>
-                        </div>
-                        <div className="hr-stat">
-                          <span className="hr-stat-label">PAYROLL</span>
-                          <span className="hr-stat-value">EGP</span>
-                        </div>
-                      </div>
                     </div>
                   )}
                 </div>
