@@ -168,7 +168,7 @@ const Contact = () => {
                 id="email"
                 name="email"
                 type="email"
-                placeholder="john@example.com"
+                placeholder="Email@example.com"
                 value={formData.email}
                 onChange={handleChange}
                 disabled={status === "sending"}

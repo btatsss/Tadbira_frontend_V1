@@ -101,6 +101,7 @@ const Projects = () => {
                     <div className="hr-visual">
                       <span className="visual-big-number">HR</span>
                       <span className="visual-small-text">MANAGEMENT SYSTEM</span>
+
                     </div>
                   )}
                 </div>
