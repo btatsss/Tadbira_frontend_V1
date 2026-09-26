@@ -4,43 +4,94 @@ export interface Project {
   category: string;
   description: string;
   result: string;
-  year: string;
   tags: string[];
   visual: string;
+  section?: string;
+  image?: string;
 }
 
 export const projects: Project[] = [
+  // ============ SYSTEMS ============
   {
     id: 1,
-    title: "Meridian Retail",
-    category: "Retail & E-Commerce",
+    title: "ERP Finance",
+    category: "Finance & Accounting",
     description:
-      "A complete digital growth strategy combining brand positioning, e-commerce optimization, and customer acquisition.",
-    result: "340% Revenue Growth",
-    year: "2024",
-    tags: ["Marketing", "E-Commerce", "Growth"],
-    visual: "meridian",
+      "A complete finance system with Accounts Receivable and Accounts Payable dashboards, plus a full tax system supporting both Egypt and Saudi Arabia regulations.",
+    result: "Complete Finance Control",
+    tags: ["Finance", "AR/AP", "Taxes"],
+    visual: "atlas",
+    section: "systems",
   },
   {
     id: 2,
-    title: "Atlas Capital",
-    category: "Finance & Consulting",
+    title: "Tadbira POS",
+    category: "Retail & Sales",
     description:
-      "Strategic consulting and fundraising support designed to prepare the company for its next stage of growth.",
-    result: "$12M Series A",
-    year: "2025",
-    tags: ["Finance", "Strategy", "Consulting"],
-    visual: "atlas",
+      "A complete point-of-sale system for managing sales, inventory, invoices, and cash registers with speed and efficiency. Supports barcode scanning, reports, user permissions, and Excel import/export through a simple, professional interface.",
+    result: "Full Sales Control",
+    tags: ["POS", "Inventory", "Barcode"],
+    visual: "meridian",
+    section: "systems",
   },
   {
     id: 3,
-    title: "Nova Ventures",
-    category: "Technology & Automation",
+    title: "HR Management System",
+    category: "HR & Enterprise",
     description:
-      "A market-entry strategy and automation infrastructure built for a technology company expanding into the MENA region.",
-    result: "MENA Expansion",
-    year: "2025",
-    tags: ["Automation", "Technology", "Strategy"],
+      "A complete HR platform for managing employees, attendance, payroll, leaves, departments, and positions. Built to simplify daily HR operations and give managers full control from one dashboard.",
+    result: "Complete HR Control",
+    tags: ["HR", "Payroll", "Attendance"],
+    visual: "hr",
+    section: "systems",
+  },
+  {
+    id: 4,
+    title: "School Management System",
+    category: "Education Technology",
+    description:
+      "A complete school management platform handling students, attendance, grades, fees, and communication between school and parents.",
+    result: "Fully Digital School",
+    tags: ["Education", "Management", "System"],
     visual: "nova",
+    section: "systems",
+  },
+
+  // ============ MARKETING ============
+  {
+    id: 5,
+    title: "Hand Modeling Session",
+    category: "Photography",
+    description:
+      "A professional hand modeling session for Rouge Perfumes, featuring creative hand poses showcasing luxury fragrance products through elegant positioning and high-end studio lighting. The session focused on telling the brand story through hands, using luxury props and a refined color palette.",
+    result: "Brand Photography",
+    tags: ["Photography", "Hand Model", "Product"],
+    visual: "photo",
+    image: "hand-modeling",
+    section: "marketing",
+  },
+  {
+    id: 6,
+    title: "Brainoo Cafe",
+    category: "Food & Beverage",
+    description:
+      "A complete product photography session for Brainoo Cafe, capturing specialty coffee drinks, dessert presentation, and the cafe's cozy atmosphere for social media and brand identity. The shoot covered menu highlights, lifestyle shots, and interior mood photography.",
+    result: "Cafe Branding",
+    tags: ["Photography", "Cafe", "Branding"],
+    visual: "photo",
+    image: "brainoo-cafe",
+    section: "marketing",
+  },
+  {
+    id: 7,
+    title: "Alrifai Perfumes",
+    category: "Product Photography",
+    description:
+      "A luxury perfume product photography for Alrifai, featuring high-quality shots of fragrance bottles, raw ingredients, and behind-the-scenes. Designed as an Instagram carousel with full creative direction, covering product details, ingredients, and lifestyle context.",
+    result: "Product Campaign",
+    tags: ["Photography", "Perfumes", "Design"],
+    visual: "photo",
+    image: "alrifai-perfumes",
+    section: "marketing",
   },
 ];

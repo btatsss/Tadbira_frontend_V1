@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,18 +19,15 @@ const Navbar = () => {
           className="logo"
           onClick={() => scrollToSection("home")}
           type="button"
+          aria-label="Tadbira home"
         >
-          TADBIRA
+          <img src={logo} alt="Tadbira" />
         </button>
 
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           <button onClick={() => scrollToSection("home")}>Home</button>
-          <button onClick={() => scrollToSection("services")}>
-            Services
-          </button>
-          <button onClick={() => scrollToSection("projects")}>
-            Projects
-          </button>
+          <button onClick={() => scrollToSection("services")}>Services</button>
+          <button onClick={() => scrollToSection("projects")}>Projects</button>
           <button onClick={() => scrollToSection("about")}>About</button>
           <button
             className="nav-contact"

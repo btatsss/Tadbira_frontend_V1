@@ -130,16 +130,6 @@ const Contact = () => {
               to hear what you're working on.
             </p>
 
-            <div className="contact-detail">
-
-              <span>EMAIL</span>
-
-              <a href="mailto:hello@tadbira.com">
-                hello@tadbira.com
-              </a>
-
-            </div>
-
           </div>
 
 

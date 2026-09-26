@@ -10,38 +10,29 @@ export interface Service {
 export const services: Service[] = [
   {
     id: 1,
-    title: "Marketing",
+    title: "Marketing & Branding",
     label: "GROWTH",
     description:
-      "We build focused marketing strategies that connect your business with the right audience and create sustainable growth.",
+      "We create clear brand identities and marketing strategies that help your business stand out, reach the right audience, and grow consistently.",
     icon: "↗",
-    tags: ["Strategy", "Branding", "Growth"],
+    tags: ["Brand Identity", "Marketing Strategy", "Content"],
   },
   {
     id: 2,
-    title: "Business Consulting",
-    label: "STRATEGY",
+    title: "Software & Automation Services",
+    label: "TECHNOLOGY",
     description:
-      "We help businesses understand challenges, identify opportunities, and build practical strategies for their next stage.",
-    icon: "◈",
-    tags: ["Strategy", "Operations", "Planning"],
+      "We build custom software systems and automate business workflows — from POS and ERP platforms to complete digital operations that save time and reduce manual work.",
+    icon: "⚡",
+    tags: ["POS Systems", "ERP Platforms", "Automation"],
   },
   {
     id: 3,
-    title: "Finance Services",
-    label: "FINANCE",
+    title: "Business & Finance Consulting",
+    label: "STRATEGY",
     description:
-      "We provide structured financial solutions that help businesses understand performance and make clearer decisions.",
-    icon: "₣",
-    tags: ["Financial Planning", "Analysis", "Advisory"],
-  },
-  {
-    id: 4,
-    title: "Automation",
-    label: "TECHNOLOGY",
-    description:
-      "We automate repetitive processes and connect digital workflows to reduce manual work and improve efficiency.",
-    icon: "⚡",
-    tags: ["Automation", "Workflows", "Integration"],
+      "We help businesses structure their finances, plan their growth, and make smarter decisions through practical consulting and clear financial strategies.",
+    icon: "◈",
+    tags: ["Finance Strategy", "Business Planning", "Advisory"],
   },
 ];
