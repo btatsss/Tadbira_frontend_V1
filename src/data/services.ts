@@ -2,7 +2,6 @@ export interface Service {
   id: number;
   title: string;
   description: string;
-  icon: string;
   label: string;
   tags: string[];
 }
@@ -14,7 +13,6 @@ export const services: Service[] = [
     label: "GROWTH",
     description:
       "We create clear brand identities and marketing strategies that help your business stand out, reach the right audience, and grow consistently.",
-    icon: "↗",
     tags: ["Brand Identity", "Marketing Strategy", "Content"],
   },
   {
@@ -23,7 +21,6 @@ export const services: Service[] = [
     label: "TECHNOLOGY",
     description:
       "We build custom software systems and automate business workflows — from POS and ERP platforms to complete digital operations that save time and reduce manual work.",
-    icon: "⚡",
     tags: ["POS Systems", "ERP Platforms", "Automation"],
   },
   {
@@ -32,7 +29,6 @@ export const services: Service[] = [
     label: "STRATEGY",
     description:
       "We help businesses structure their finances, plan their growth, and make smarter decisions through practical consulting and clear financial strategies.",
-    icon: "◈",
     tags: ["Finance Strategy", "Business Planning", "Advisory"],
   },
 ];

@@ -45,21 +45,10 @@ export const projects: Project[] = [
     visual: "hr",
     section: "systems",
   },
-  {
-    id: 4,
-    title: "School Management System",
-    category: "Education Technology",
-    description:
-      "A complete school management platform handling students, attendance, grades, fees, and communication between school and parents.",
-    result: "Fully Digital School",
-    tags: ["Education", "Management", "System"],
-    visual: "nova",
-    section: "systems",
-  },
 
   // ============ MARKETING ============
   {
-    id: 5,
+    id: 4,
     title: "Hand Modeling Session",
     category: "Photography",
     description:
@@ -71,7 +60,7 @@ export const projects: Project[] = [
     section: "marketing",
   },
   {
-    id: 6,
+    id: 5,
     title: "Brainoo Cafe",
     category: "Food & Beverage",
     description:
@@ -83,7 +72,7 @@ export const projects: Project[] = [
     section: "marketing",
   },
   {
-    id: 7,
+    id: 6,
     title: "Alrifai Perfumes",
     category: "Product Photography",
     description:

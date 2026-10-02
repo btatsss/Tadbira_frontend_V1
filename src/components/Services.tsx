@@ -32,8 +32,6 @@ const Services = () => {
             <article className="service-item" key={service.id}>
               <div className="service-number">0{index + 1}</div>
 
-              <div className="service-icon-large">{service.icon}</div>
-
               <div className="service-main">
                 <div className="service-label">{service.label}</div>
                 <h3>{service.title}</h3>
